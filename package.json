@@ -1,0 +1,16 @@
+{
+  "name": "m4p-to-mp3-bot",
+  "version": "1.0.0",
+  "description": "Telegram audio converter bot: M4A/M4P/FLAC/WAV/OGG → MP3 and more",
+  "main": "bot.js",
+  "private": true,
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning bot.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "grammy": "1.46.0"
+  }
+}
